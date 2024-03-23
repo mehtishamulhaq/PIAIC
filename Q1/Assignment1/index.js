@@ -40,7 +40,7 @@ function performCalculation(firstNumber, secondNumber, operationType) {
 async function main() {
     const { firstNumber, secondNumber, operationType } = await getUserInput();
     const result = performCalculation(firstNumber, secondNumber, operationType);
-    console.log('Your result is:', result);
+    console.log('Your result is: ', result);
 }
 // Call the main function to start the program
 main();
